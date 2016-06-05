@@ -2,7 +2,7 @@ local Redis = (loadfile "./libs/lua-redis.lua")()
 local FakeRedis = (loadfile "./libs/fakeredis.lua")()
 
 local params = {
-  host = '127.0.0.1',
+  host = '31.170.163.207',
   port = 6379,
 }
 

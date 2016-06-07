@@ -233,7 +233,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {152485254,0,tonumber(our_id)},--Sudo users
+    sudo_users = {152485254,131606874,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Chrome 
     کروم بات
@@ -242,6 +242,8 @@ function create_config( )
     تیم سید
     ساخت و یا خرید گروه:
     @A_HelloWorld
+    کانال های تیم ما
+    @Chromeirani
 ]],
     help_text_realm = [[
 Realm Commands:

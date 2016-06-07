@@ -458,146 +458,115 @@ will return group ban list
 
 ]],
 	help_text_super =[[
-SuperGroup Commands:
-
-!info
-Displays general info about the SuperGroup
-
-!admins
-Returns SuperGroup admins list
-
-!owner
-Returns group owner
-
-!modlist
-Returns Moderators list
-
-!bots
-Lists bots in SuperGroup
-
-!who
-Lists all users in SuperGroup
-
-!block
-Kicks a user from SuperGroup
-*Adds user to blocked list*
-
-!ban
-Bans user from the SuperGroup
-
-!unban
-Unbans user from the SuperGroup
-
-!id
-Return SuperGroup ID or user id
-*For userID's: !id @username or reply !id*
-
-!id from
-Get ID of user message is forwarded from
-
-!kickme
-Kicks user from SuperGroup
-*Must be unblocked by owner or use join by pm to return*
-
-!setowner
-Sets the SuperGroup owner
-
-!promote [username|id]
-Promote a SuperGroup moderator
-
-!demote [username|id]
-Demote a SuperGroup moderator
-
-!setname
-Sets the chat name
-
-!setphoto
-Sets the chat photo
-
-!setrules
-Sets the chat rules
-
-!setabout
-Sets the about section in chat info(members list)
-
-!save [value] <text>
-Sets extra info for chat
-
-!get [value]
-Retrieves extra info for chat by value
-
-!newlink
-Generates a new group link
-
-!link
-Retireives the group link
-
-!rules
-Retrieves the chat rules
-
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Lock group settings
-*rtl: Delete msg if Right To Left Char. is in name*
-*strict: enable strict settings enforcement (violating user will be kicked)*
-
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Unlock group settings
-*rtl: Delete msg if Right To Left Char. is in name*
-*strict: disable strict settings enforcement (violating user will not be kicked)*
-
-!mute [all|audio|gifs|photo|video|service]
-mute group message types
-*A "muted" message type is auto-deleted if posted
-
-!unmute [all|audio|gifs|photo|video|service]
-Unmute group message types
-*A "unmuted" message type is not auto-deleted if posted
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!settings
-Returns chat settings
-
-!muteslist
-Returns mutes for chat
-
-!muteuser [username]
-Mute a user in chat
-*If a muted user posts a message, the message is deleted automaically
-*only owners can mute | mods and owners can unmute
-
-!mutelist
-Returns list of muted users in chat
-
-!banlist
-Returns SuperGroup ban list
-
-!clean [rules|about|modlist|mutelist]
-
-!del
-Deletes a message by reply
-
-!public [yes|no]
-Set chat visibility in pm !chats or !chatlist commands
-
-!res [username]
-Returns users name and id by username
-
-
-!log
-Returns group logs
-*Search for kick reasons using [#RTL|#spam|#lockmember]
-
-**You can use "#", "!", or "/" to begin all commands
-
-*Only owner can add members to SuperGroup
-(use invite link to invite)
-
-*Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
-
-*Only owner can use res, setowner, promote, demote, and log commands
-
+دستورات سوپر گروه بات کروم👥:
+📋اطلاعات سوپر گروه: (اطلاعات)
+📋ایدی عددی: (ایدی)
+📋لیست مدیران اصلی سوپر گروه:  (مدیران)
+📋نشان دادن ایدی صاحب سوپر گروه: (صاحب اصلی)
+📋لیست معاونان گروه: (معاونان)
+📋لیست باتا های سوپر گروه: (بات ها)
+📋لیست اعضای گروه و اطلاعات انان: (کی)
+📋اخراج فردی از گروه: (اخراج)
+‼️اخراج با ریپلی و اخراج با ایدی
+📋کسی را معاون سوپر گروه کنید: (معاون)
+‼️معاون با ریپلی و ایدی
+📋کسی را از معاونی برکنار کنید: (برکنار)
+‼️برکنار معاون با ریپلی و ایدی
+📋کسی را صاحب اصلی گروه کنید: (صاحب)
+‼️صاحب گروه با ریپلی و ایدی
+📋کسی را مدیر اصلی گروه کنید: (مدیر)
+‼️مدیر کردن با ریپلی و ایدی
+📋کسی را از مدیریت برکنار کنید: (برکنار مدیر)
+📓تغییر اسم گروه :
+گزاشتن نام (اسم مورد نظر)
+📓گزاشتن عکس یا تغییر عکس :
+گزاشتن عکس
+📓گزاشتن قوانین :
+گزاشتن قوانین (قانون مورد نظر)
+📓گزاشتن شرح برای سوپر گروه :
+گزاشتن شرح (توضیحی که مورد نظر شماست)
+📓دیدن قوانین: (قوانین)
+📓دیدن شرح سوپر گروه :
+‼️در پروفایل گروه میتوانید شرح  گروه را ببینید
+📓لینک سوپر گروه :
+📓ساخت و یا تغییر لینک:(لینک جدید)
+📓ثبت لینک مخصوص سوپر گروهایی که بات در ان ها اد شده است :
+ثبت لینک
+📓دریافت لینک : (لینک)
+📓دیدن وضعیت تنظیمات گروه: (تنظیمات)
+📓دیدن وضعیت تنظیمات سکوت: (تنظیمات سکوت)
+📓فعال و غیر فعال کردن بعضی از امکانات سوپر گروه :
+‼️جلوگیری از ارسال استیکر در سوپر گروه
+قفل استیکر
+📓جلوگیری از ارسال لینک در گروه : 
+قفل لینک
+📓جلوگیری از عربی و فارسی نویسی :
+قفل فارسی
+📓جلوگیری از ورود اعضای جدید :
+قفل اعضا
+📓جلوگیری از ارسال شماره  در گروه :
+قفل شماره
+📓جلوگیری از اسپم :
+قفل اسپم
+📓فعال کردن حساسیت به پیام  :
+قفل فلود
+📓تعیین حساسیت به پیام :
+حساسیت [1-20]
+مثال: حساسیت 1
+📓تمامی امکانات بالا را میتوانید بصورت زیر غیر فعال کنید.
+باز استیکر
+باز لینک
+باز فارسی
+باز اعضا
+باز شماره
+باز اسپم
+باز فلود
+📓امکانات دیگر :
+📓جلوگیری از ارسال صدا : 
+سکوت صدا
+🔇
+📓جلوگیری از ارسال عکس :
+سکوت عکس
+🔇
+📓جلوگیری از ارسال فیلم :
+سکوت فیلم
+🔇
+📓جلوگیری از ارسال گیف
+سکوت گیف
+🔇
+📓جلوگیری از ارسال فایل :
+سکوت فایل
+🔇
+📓جلوگیری از ارسال متن :
+سکوت متن
+🔇
+📓چت ممنوع در گروه :
+سکوت همه
+🔇
+📓تمامی امکانات بالا را می توانید بصورت زیر غیر فعال کنید :
+ازاد صدا
+🔊
+ازاد عکس
+🔊
+ازاد فیلم
+ازاد گیف
+🔊
+ازاد فایل
+🔊
+ازاد متن
+🔊
+ازاد همه
+🔊
+منع کردن کسی از چت :
+ساکت 
+‼️با ریپلی و ایدی
+ازاد کردن :
+ساکت
+‼️با ریپلی و ایدی
+📓لیست کسانی که از چت منع شده اند:
+لیست ساکت ها
+@chrometeam
+Chrome bot
 ]],
   }
   serialize_to_file(config, './data/config.lua')
